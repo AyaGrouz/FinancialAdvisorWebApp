@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stoufa\\ENSIT\\PFE\\Projet\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj": {}
   },
   "projects": {
-    "D:\\Stoufa\\ENSIT\\PFE\\Projet\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj": {
+    "C:\\Users\\DELL\\Desktop\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stoufa\\ENSIT\\PFE\\Projet\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj",
         "projectName": "FinancialAdvisorWebApp",
-        "projectPath": "D:\\Stoufa\\ENSIT\\PFE\\Projet\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj",
-        "packagesPath": "C:\\Users\\BenAmar\\.nuget\\packages\\",
-        "outputPath": "D:\\Stoufa\\ENSIT\\PFE\\Projet\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\FinancialAdvisor\\FinancialAdvisorWebApp\\FinancialAdvisorWebApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\BenAmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -51,7 +46,7 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[3.1.31, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -59,15 +54,15 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0-rc.2.20475.17, )"
+              "version": "[3.1.31, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[3.1.31, )"
             },
             "Microsoft.AspNetCore.SpaServices.Extensions": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[3.1.31, )"
             },
             "Microsoft.Azure.SignalR": {
               "target": "Package",
@@ -120,7 +115,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

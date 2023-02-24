@@ -27,14 +27,19 @@ namespace FinancialAdvisorWebApp.Controllers
         public async Task<Object> GetUserProfile()
         {
             string userId = User.Claims.First(c => c.Type == "UserID").Value;
-            var user = await _userManager.FindByIdAsync(userId);
-            return new
+            if (userId != null)
             {
-                user.Id,
-                user.FullName,
-                user.Email,
-                user.UserName
-            };
+                var user = await _userManager.FindByIdAsync(userId);
+                return new
+                {
+                    user.Id,
+                    user.FullName,
+                    user.Email,
+                    user.UserName
+                };
+            }
+            else return null;
+
         }
     }
 }

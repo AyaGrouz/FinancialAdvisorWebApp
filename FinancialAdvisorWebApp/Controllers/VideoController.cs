@@ -57,11 +57,11 @@ namespace FinancialAdvisorWebApp.Controllers
             string results = ExecProcess(Quest.RoomSid, @"\ML\EmotionalRecognition\emotionalRecognition.py");
             System.Diagnostics.Debug.WriteLine(DeleteLines(results, 3));
             var obj = JObject.Parse(DeleteLines(results, 3));
-
-            var a = 0;
             FACIAL_EMOTIONS result = new FACIAL_EMOTIONS();
             result.ID_INVEST = Quest.Id_invest;
             var versions = _context.Facial_Emotions.Where(x => x.ID_INVEST == Quest.Id_invest).ToList();
+
+            var a = 0;
             foreach (var i in versions)
             {
                 if (versions == null)
@@ -174,7 +174,7 @@ namespace FinancialAdvisorWebApp.Controllers
         {
             // 1) Create Process Info
             var psi = new ProcessStartInfo();
-            psi.FileName = @"C:\Users\BenAmar\AppData\Local\Programs\Python\Python38\python.exe";
+            psi.FileName = @"C:\Users\DELL\AppData\Local\Programs\Python\Python38\python.exe";
 
             // 2) Provide script and arguments
             var script = Environment.CurrentDirectory + path;

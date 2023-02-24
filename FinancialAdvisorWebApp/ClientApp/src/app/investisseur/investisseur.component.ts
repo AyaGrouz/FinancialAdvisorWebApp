@@ -35,6 +35,7 @@ export class InvestisseurComponent implements OnInit {
               this.maxEmotion = speech['emotion'];
 
               this.http.get<emotion>('/api/video/emotions/' + this.id_invest).subscribe((result) => {
+                this.Emotions = null;
                 if (result != null) {
                   this.http.get('/api/Questionnaire/version/' + this.id_invest).subscribe((version) => {
                     console.log("**************  " + result.version);

@@ -50,16 +50,16 @@ export class VideoCallComponent implements OnInit, AfterViewInit {
     ]; */
   answer = [
     { "Id_question": 1, "Choice": "Between 18 and 40 years" },
-    { "Id_question": 2, "Choice": "Between 75,00$ and 100,00$" },
+    { "Id_question": 2, "Choice": "Less than 25,00$" },
     { "Id_question": 3, "Choice": "In more than 20 years" },
-    { "Id_question": 4, "Choice": "Quite stable : Some debts and average savings" },
-    { "Id_question": 5, "Choice": "Maximum growth : My only goal is maximum growth and I’m not concerned about the fluctuation of return" },
-    { "Id_question": 6, "Choice": "Very good : I have a solid understanding about the different type of investment and their associated risk" },
-    { "Id_question": 7, "Choice": "6 to 10 " },
-    { "Id_question": 8, "Choice": "From 10% to 20%" },
+    { "Id_question": 4, "Choice": "Very good : Barely or no debt and a lot of savings" },
+    { "Id_question": 5, "Choice": "Development and Security : I’m looking for a balance between security and development to get a return slightly above inflation" },
+    { "Id_question": 6, "Choice": "Beginner : I know that there is different type of investment but i don’t know what is the difference between them" },
+    { "Id_question": 7, "Choice": "More than 10" },
+    { "Id_question": 8, "Choice": "More than 20%" },
     { "Id_question": 9, "Choice": "From - 2,00$ to + 2,50$" },
-    { "Id_question": 10, "Choice": "I would sell my investment even if it resulted in an immediate loss" },
-    { "Id_question": 11, "Choice": "Very high returns, regardless of a high risk of losing part of your capital" },
+    { "Id_question": 10, "Choice": "I would keep my investment because we expect market fluctuations. It’s the long-growth of this investment that interests me and the fluctuations in short term do  not worry me " },
+    { "Id_question": 11, "Choice": "A good return, with reasonable security for your invested capital" },
     { "Id_question": 12, "Choice": null }
   ];
 
