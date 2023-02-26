@@ -28,7 +28,7 @@ namespace FinancialAdvisorWebApp.Controllers
             IGrouping<int, QUESTIONNAIRE> questionnaire = _context.Questionnaires
                 .Where(x => x.ID_INVEST.Equals(id_invest)).OrderByDescending(x => x.VERSION)
                 .AsEnumerable()
-                .GroupBy(x => x.VERSION).FirstOrDefault();
+                .GroupBy(keySelector: x => x.VERSION).FirstOrDefault();
             foreach (var i in questionnaire)
             {
                 var weightresult = _context.Choices.Find(i.ID_CHOIX).WEIGHT;

@@ -1,4 +1,4 @@
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import img_to_array
 import imutils
 import cv2
 from keras.models import load_model
@@ -12,10 +12,9 @@ from pydub import AudioSegment
 import requests
 import pyaudio
 import pandas as pd
-import IPython.display as ipd
+import IPython.display as ipd 
 import sys
 import librosa
-
 
 pathLocal = (str((pathlib.Path().absolute())).replace("\\", "/"))+"/ML/EmotionalRecognition"
 room_sid = sys.argv[1]
