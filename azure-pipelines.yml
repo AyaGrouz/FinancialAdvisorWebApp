@@ -19,7 +19,6 @@ steps:
     architecture: 'x64' 
 
 - script: |
-
    pip install -r requirements.txt
   workingDirectory: FinancialAdvisorWebApp/ML
   displayName: 'CMD Requirements installation '
